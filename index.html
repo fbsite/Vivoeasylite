@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Vivo Easy: 10GB + 1 Ano Perplexity Pro Grátis (Código 40DZ36HK2E)</title>
-    <meta name="description" content="Ganhe 10GB de Internet + 1 Ano de Perplexity Pro (IA) de graça usando o código 40DZ36HK2E no Vivo Easy. Cadastre-se agora!">
+    <title>Vivo Easy: 10GB + Perplexity Grátis (Código 40DZ36HK2E)</title>
+    <meta name="description" content="Use o código 40DZ36HK2E no Vivo Easy e ganhe 10GB. Confira os novos planos Easy Lite 20GB e 25GB com preços oficiais.">
     
     <!-- SEO & Social Media -->
     <meta property="og:title" content="10GB + Perplexity Pro GRÁTIS na Vivo!">
-    <meta property="og:description" content="Código secreto 40DZ36HK2E libera 10GB de bônus e 1 ano de IA Perplexity Pro.">
+    <meta property="og:description" content="Código secreto 40DZ36HK2E libera 10GB de bônus. Planos a partir de R$30.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://placehold.co/1200x630/7026B9/white?text=10GB+%2B+Perplexity+Pro+GR%C3%81TIS">
+    <meta property="og:image" content="https://placehold.co/1200x630/7026B9/white?text=10GB+%2B+Oferta+Lite">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="theme-color" content="#7026B9">
 
@@ -25,38 +25,54 @@
     <!-- Google Fonts (Inter) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <style>
         body {
             font-family: 'Inter', sans-serif;
             -webkit-tap-highlight-color: transparent;
-            background: linear-gradient(135deg, #7026B9 0%, #E9206E 100%);
+            background: linear-gradient(135deg, #4c1d95 0%, #be185d 100%);
             background-attachment: fixed;
         }
         
         .glass-card {
             background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
             border-radius: 1rem;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
         }
 
-        /* Estilo Especial para o Card Perplexity */
-        .perplexity-card {
-            background: rgba(20, 20, 25, 0.95);
-            border: 1px solid #334155;
-            color: white;
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+        /* Destaque Anual (baseado no print) */
+        .lite-card-annual {
+            background: white;
+            border: 2px solid #a855f7; /* Roxo vivo */
+            position: relative;
+            overflow: visible;
+        }
+
+        .lite-badge {
+            background: #fce7f3; /* Pink bem claro */
+            color: #db2777; /* Pink escuro */
+            border: 1px solid #fbcfe8;
+            border-radius: 999px;
+            padding: 2px 10px;
+            font-size: 11px;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
         }
 
         .btn-cta {
-            background: linear-gradient(90deg, #ff6b00 0%, #ff8c00 100%);
+            background: linear-gradient(90deg, #7e22ce 0%, #6b21a8 100%); /* Roxo Vivo Easy */
             transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
         .btn-cta:active {
-            transform: scale(0.98);
+            transform: scale(0.97);
+        }
+        
+        .btn-main-cta {
+            background: linear-gradient(90deg, #ea580c 0%, #c2410c 100%); /* Laranja destaque */
         }
 
         .pulse-animation {
@@ -64,12 +80,11 @@
         }
 
         @keyframes pulse-orange {
-            0% { box-shadow: 0 0 0 0 rgba(255, 107, 0, 0.7); }
-            70% { box-shadow: 0 0 0 10px rgba(255, 107, 0, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(255, 107, 0, 0); }
+            0% { box-shadow: 0 0 0 0 rgba(234, 88, 12, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(234, 88, 12, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(234, 88, 12, 0); }
         }
 
-        /* Shimmer Effect for AI Badge */
         .shimmer {
             background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%);
             background-size: 200% 100%;
@@ -80,236 +95,291 @@
             100% { background-position: 200% 0; }
         }
 
-        ::-webkit-scrollbar { width: 0px; background: transparent; }
+        /* Scroll Horizontal */
+        .hide-scroll::-webkit-scrollbar { display: none; }
+        .hide-scroll { -ms-overflow-style: none; scrollbar-width: none; }
+
+        .check-icon { @apply w-4 h-4 text-pink-600 mr-2 flex-shrink-0; }
+        .benefit-icon { @apply w-5 h-5 text-purple-600 mr-3; }
     </style>
     
     <!-- Inline Manifest -->
-    <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiVml2byBFYXN5ICsgUEVSIiwic2hvcnRfbmFtZSI6IlZpdm8gQm9udXMiLCJzdGFydF91cmwiOiIuIiwiZGlzcGxheSI6InN0YW5kYWxvbmUiLCJiYWNrZ3JvdW5kX2NvbG9yIjoiIzcwMjZCOSIsInRoZW1lX2NvbG9yIjoiIzcwMjZCOSIsImljb25zIjpbeyJzcmMiOiJodHRwczovL3BsYWNlaG9sZC5jby8xOTJ4MTkyLzcwMjZCOS9mZmZmZmZmP3RleHQ9MTAiLCJzaXplcyI6IjE5MngxOTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn1dfQ==">
+    <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiVml2byBFYXN5IExpdGUiLCJzaG9ydF9uYW1lIjoiVml2byBMaXRlIiwic3RhcnRfdXJsIjoiLiIsImRpc3BsYXkiOiJzdGFuZGFsb25lIiwiYmFja2dyb3VuZF9jb2xvciI6IiM3MDI2QjkiLCJ0aGVtZV9jb2xvciI6IiM3MDI2QjkiLCJpY29ucyI6W3sic3JjIjoiaHR0cHM6Ly9wbGFjZWhvbGQuY28vMTkyeDE5Mi83MDI2QjkvZmZmZmZmZj90ZXh0PVZpdm8iLCJzaXplcyI6IjE5MngxOTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn1dfQ==">
 </head>
-<body class="text-gray-800 antialiased pb-36">
+<body class="text-slate-800 antialiased pb-36">
 
     <!-- Header / Hero Section -->
-    <header class="relative min-h-screen flex flex-col items-center justify-center text-center px-4 py-6 text-white overflow-hidden">
+    <header class="relative flex flex-col items-center justify-center text-center px-4 pt-8 pb-6 text-white overflow-hidden min-h-[75vh]">
         
-        <!-- Blobs Background -->
-        <div class="absolute top-0 left-0 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob"></div>
-        <div class="absolute top-0 right-0 w-64 h-64 bg-cyan-500 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob animation-delay-2000"></div>
+        <div class="absolute top-0 left-0 w-72 h-72 bg-purple-600 rounded-full mix-blend-overlay filter blur-3xl opacity-40 animate-blob"></div>
+        <div class="absolute top-20 right-0 w-72 h-72 bg-pink-600 rounded-full mix-blend-overlay filter blur-3xl opacity-40 animate-blob animation-delay-2000"></div>
 
-        <div class="relative z-10 w-full max-w-md">
+        <div class="relative z-10 w-full max-w-md flex flex-col h-full justify-center">
             <!-- Logo Vivo -->
-            <div class="mx-auto mb-4 w-20 h-20 bg-white rounded-3xl flex items-center justify-center shadow-xl">
-                <svg viewBox="0 0 100 100" class="w-12 h-12 text-[#7026B9] fill-current">
+            <div class="mx-auto mb-5 w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-300">
+                <svg viewBox="0 0 100 100" class="w-10 h-10 text-[#7026B9] fill-current">
                     <path d="M50 55c13.8 0 25-11.2 25-25S63.8 5 50 5 25 16.2 25 30s11.2 25 25 25zm0 9c-16.7 0-50 8.4-50 25v6h100v-6c0-16.6-33.3-25-50-25z"/>
                 </svg>
             </div>
 
             <!-- AI Badge -->
-            <div class="inline-flex relative overflow-hidden items-center bg-black/40 backdrop-blur-md rounded-full px-4 py-1.5 mb-4 border border-cyan-400/50 shadow-[0_0_15px_rgba(34,211,238,0.3)]">
+            <div class="self-center inline-flex relative overflow-hidden items-center bg-slate-900/60 backdrop-blur-md rounded-full px-4 py-1.5 mb-5 border border-cyan-400/40 shadow-[0_0_20px_rgba(34,211,238,0.2)]">
                 <div class="absolute inset-0 shimmer pointer-events-none"></div>
                 <span class="text-lg mr-2">🤖</span>
-                <span class="text-xs font-bold tracking-wide uppercase text-cyan-300">Inclui Perplexity Pro Grátis</span>
+                <span class="text-xs font-bold tracking-wide uppercase text-cyan-300">Perplexity Pro Incluso*</span>
             </div>
 
-            <h1 class="text-5xl font-extrabold mb-1 leading-tight tracking-tight drop-shadow-md">
-                10GB DE GRAÇA <br> <span class="text-2xl font-semibold">+ IA PREMIUM</span>
+            <h1 class="text-5xl font-black mb-2 leading-[0.95] tracking-tighter drop-shadow-lg">
+                10GB DE <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-yellow-500">BÔNUS</span>
             </h1>
             
-            <p class="text-lg font-medium text-white/90 mb-4 mt-2">
-                Ative o código <span class="font-mono bg-white text-purple-900 font-black px-2 py-0.5 rounded border border-white/50 select-all cursor-pointer">40DZ36HK2E</span>
+            <p class="text-base font-medium text-white/90 mb-5">
+                Ative o cupom <span class="font-mono bg-white text-purple-900 font-black px-2 py-1 rounded border-2 border-purple-300 select-all cursor-pointer shadow-lg" onclick="copyCode()">40DZ36HK2E</span>
             </p>
-
-            <!-- Card Destaque Perplexity -->
-            <div class="perplexity-card rounded-xl p-4 mb-6 text-left relative overflow-hidden group">
-                <div class="absolute top-0 right-0 bg-cyan-500 text-black text-[10px] font-bold px-2 py-1 rounded-bl-lg">VALOR: R$ 1.200/ANO</div>
-                <div class="flex items-start space-x-3">
-                    <div class="bg-gray-800 p-2 rounded-lg border border-gray-700">
-                        <svg class="w-8 h-8 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                    </div>
-                    <div>
-                        <h3 class="text-cyan-400 font-bold text-lg leading-none mb-1">1 Ano de Perplexity Pro</h3>
-                        <p class="text-gray-300 text-xs leading-tight">A Inteligência Artificial mais avançada do mundo liberada de graça com este código.</p>
-                    </div>
-                </div>
-            </div>
 
             <!-- Barra de Progresso -->
             <div class="bg-white/10 backdrop-blur-md rounded-xl p-3 mb-6 border border-white/20 shadow-lg text-left">
-                <div class="flex items-center justify-between mb-1">
-                    <span class="text-[10px] font-bold text-white uppercase">Cupons Restantes</span>
-                    <span class="text-[10px] font-bold text-red-300 animate-pulse">Últimas 14 unidades</span>
+                <div class="flex items-center justify-between mb-1.5">
+                    <span class="text-[10px] font-bold text-white uppercase tracking-wider">Cupons Disponíveis</span>
+                    <span class="text-[10px] font-bold text-red-200 animate-pulse">Poucas unidades</span>
                 </div>
-                <div class="w-full bg-black/30 rounded-full h-2">
-                    <div class="bg-gradient-to-r from-red-400 to-orange-500 h-2 rounded-full" style="width: 94%"></div>
+                <div class="w-full bg-black/40 rounded-full h-2">
+                    <div class="bg-gradient-to-r from-red-500 to-orange-500 h-2 rounded-full shadow-[0_0_10px_rgba(249,115,22,0.5)]" style="width: 92%"></div>
                 </div>
             </div>
 
-            <a href="https://vivo.gateway.zup.me/easy/v3/invitations/40DZ36HK2E?gw-app-key=bba02b207a1301386e15000d3ac06d76&media=&utm_source=convite&utm_medium=amigo&utm_campaign=10gb_perplexity" 
-               aria-label="Quero meus 10 Gigas e Perplexity"
-               class="btn-cta pulse-animation w-full block text-white font-black text-lg py-4 rounded-full shadow-2xl relative overflow-hidden">
-               <span class="relative z-10 flex items-center justify-center">
-                   RESGATAR TUDO AGORA
-                   <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            <a href="https://vivo.gateway.zup.me/easy/v3/invitations/40DZ36HK2E?gw-app-key=bba02b207a1301386e15000d3ac06d76&media=&utm_source=convite&utm_medium=amigo&utm_campaign=10gb_lite" 
+               aria-label="Quero meus 10 Gigas"
+               class="btn-main-cta pulse-animation w-full flex items-center justify-center text-white font-black text-lg py-4 rounded-xl shadow-2xl relative overflow-hidden group">
+               <span class="relative z-10 flex items-center">
+                   RESGATAR 10GB AGORA
+                   <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                </span>
             </a>
-            
-            <p class="text-[10px] text-white/60 mt-3">Oferta válida apenas para novos cadastros.</p>
-        </div>
-        
-        <div class="absolute bottom-0 w-full">
-             <svg viewBox="0 0 1440 100" class="fill-white w-full h-auto block" preserveAspectRatio="none">
-                <path d="M0,32L80,42.7C160,53,320,75,480,74.7C640,75,800,53,960,42.7C1120,32,1280,32,1360,32L1440,32L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
-            </svg>
         </div>
     </header>
 
-    <main class="max-w-md mx-auto px-4 -mt-6 relative z-20">
+    <main class="max-w-md mx-auto px-4 relative z-20 -mt-4">
 
-        <!-- Gatilhos Mentais -->
-        <div class="grid grid-cols-2 gap-3 mb-8">
-            <!-- Card Pro -->
-            <div class="bg-gray-900 border border-cyan-500/30 rounded-xl p-4 text-center shadow-lg transform scale-105 z-10">
-                <div class="text-2xl mb-1">🤖</div>
-                <h3 class="font-bold text-cyan-400 text-sm leading-tight mb-1">IA Grátis</h3>
-                <p class="text-[10px] text-gray-400 leading-tight">Economia de R$100/mês com Perplexity Pro.</p>
-            </div>
-            <div class="glass-card p-4 text-center shadow-sm">
-                <div class="text-2xl mb-1">🚀</div>
-                <h3 class="font-bold text-purple-800 text-sm leading-tight mb-1">10GB Imediato</h3>
-                <p class="text-[10px] text-gray-600 leading-tight">Internet cai na hora no app.</p>
+        <!-- Benefícios Comuns (Extraídos das Imagens) -->
+        <div class="bg-white rounded-xl p-5 shadow-lg mb-10 border border-gray-100">
+            <h3 class="text-sm font-bold text-gray-500 uppercase mb-3 tracking-wide">Incluso em todos os planos:</h3>
+            <div class="space-y-3">
+                <div class="flex items-center">
+                    <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center mr-3 text-purple-700">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                    </div>
+                    <span class="text-sm font-semibold text-gray-700">Voz e SMS inclusos</span>
+                </div>
+                <div class="flex items-center">
+                    <div class="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center mr-3 text-red-600">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <span class="text-sm font-semibold text-gray-700">50% OFF Cinemark todo mês</span>
+                </div>
+                <div class="flex items-center">
+                    <div class="w-8 h-8 rounded-full bg-yellow-100 flex items-center justify-center mr-3 text-yellow-600">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg>
+                    </div>
+                    <span class="text-sm font-semibold text-gray-700">R$50 no App Vale Bonus/mês</span>
+                </div>
             </div>
         </div>
 
-        <!-- Por que é imbatível -->
-        <section class="mb-10">
-            <h2 class="text-xl font-bold text-gray-900 mb-5 text-center">Pacote de Boas-vindas</h2>
-            <div class="space-y-3">
+        <!-- SEÇÃO: PLANOS OFICIAIS -->
+        <section class="mb-12">
+            <div class="flex items-center justify-between mb-5 px-1">
+                <h2 class="text-xl font-bold text-gray-900">Escolha seu Plano <span class="text-purple-600">Lite</span></h2>
+            </div>
+            
+            <!-- Scroll Horizontal -->
+            <div class="flex overflow-x-auto space-x-4 pb-8 hide-scroll snap-x snap-mandatory -mx-4 px-4">
                 
-                <!-- Item Perplexity (Novo) -->
-                <div class="flex items-start bg-gradient-to-br from-gray-900 to-gray-800 p-4 rounded-xl shadow-md border border-cyan-900 text-white relative overflow-hidden">
-                    <div class="absolute right-0 top-0 bg-yellow-500 text-black text-[9px] font-bold px-2 py-0.5">BEST SELLER</div>
-                    <div class="flex-shrink-0 w-8 h-8 bg-cyan-900/50 rounded-full flex items-center justify-center text-cyan-400 mr-3 mt-1 border border-cyan-700">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                <!-- 1. 20GB Anual (Destaque Imagem 2) -->
+                <div class="snap-center flex-shrink-0 w-72 lite-card-annual rounded-2xl p-5 shadow-xl">
+                    <div class="lite-badge mb-3">✨ Giga mais barato</div>
+                    
+                    <h3 class="text-gray-500 text-sm font-medium line-through decoration-red-400">12x R$ 45,00</h3>
+                    
+                    <div class="flex items-baseline mb-1">
+                        <span class="text-sm text-purple-800 font-bold mr-1">12x</span>
+                        <span class="text-sm text-purple-800 font-bold mr-1">R$</span>
+                        <span class="text-5xl font-black text-purple-900 tracking-tighter">30</span>
                     </div>
-                    <div>
-                        <h3 class="font-bold text-cyan-300">1 Ano de Perplexity Pro</h3>
-                        <p class="text-xs text-gray-400 mt-1">Pesquise na internet com superpoderes. Acesso aos modelos GPT-4o, Claude 3 e mais, totalmente grátis.</p>
+                    <p class="text-xs text-gray-500 font-medium mb-4">no cartão • Total no ano: R$ 360,00</p>
+
+                    <div class="bg-purple-100 text-purple-800 font-bold px-3 py-1 rounded-lg inline-block text-sm mb-6">
+                        20GB plano por mês
                     </div>
+                    
+                    <button class="w-full bg-purple-800 hover:bg-purple-900 text-white font-bold py-3 rounded-lg transition-colors shadow-lg">
+                        Assinar 20GB
+                    </button>
+                    
+                    <p class="text-[10px] text-center text-gray-400 mt-3 border-t border-gray-100 pt-2">
+                        +10GB BÔNUS com código 40DZ36HK2E
+                    </p>
                 </div>
 
-                <!-- Item 1 -->
-                <div class="flex items-start bg-white p-4 rounded-xl shadow-sm border border-gray-100">
-                    <div class="flex-shrink-0 w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 mr-3 mt-1">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                 <!-- 2. 25GB Anual (Destaque Imagem 1) -->
+                 <div class="snap-center flex-shrink-0 w-72 glass-card border border-gray-200 bg-white p-5 rounded-2xl shadow-sm">
+                    <div class="lite-badge mb-3 bg-gray-100 text-gray-600 border-gray-200">✨ Giga mais barato</div>
+                    
+                    <h3 class="text-gray-400 text-sm font-medium line-through">12x R$ 55,00</h3>
+                    
+                    <div class="flex items-baseline mb-1">
+                        <span class="text-sm text-gray-700 font-bold mr-1">12x</span>
+                        <span class="text-sm text-gray-700 font-bold mr-1">R$</span>
+                        <span class="text-5xl font-black text-gray-800 tracking-tighter">40</span>
                     </div>
-                    <div>
-                        <h3 class="font-bold text-gray-800">10GB Sem Validade</h3>
-                        <p class="text-xs text-gray-600">Seus gigas não expiram. Use hoje ou daqui a 1 ano.</p>
+                    <p class="text-xs text-gray-500 font-medium mb-4">no cartão • Total no ano: R$ 480,00</p>
+
+                    <div class="bg-gray-100 text-gray-700 font-bold px-3 py-1 rounded-lg inline-block text-sm mb-6">
+                        25GB plano por mês
                     </div>
+                    
+                    <button class="w-full bg-purple-800 hover:bg-purple-900 text-white font-bold py-3 rounded-lg transition-colors shadow-md">
+                        Assinar 25GB
+                    </button>
+                </div>
+
+                <!-- 3. 20GB Mensal -->
+                <div class="snap-center flex-shrink-0 w-72 bg-white border border-gray-200 p-5 rounded-2xl shadow-sm opacity-90">
+                    <h3 class="text-gray-500 text-sm font-medium mb-2">Mensal</h3>
+                    
+                    <div class="flex items-baseline mb-4">
+                        <span class="text-sm text-gray-700 font-bold mr-1">R$</span>
+                        <span class="text-5xl font-black text-gray-800 tracking-tighter">45</span>
+                        <span class="text-sm text-gray-500 font-medium ml-1">/mês</span>
+                    </div>
+
+                    <div class="bg-gray-100 text-gray-600 font-bold px-3 py-1 rounded-lg inline-block text-sm mb-6">
+                        20GB plano por mês
+                    </div>
+                    
+                    <button class="w-full bg-white border-2 border-purple-800 text-purple-800 font-bold py-3 rounded-lg hover:bg-purple-50 transition-colors">
+                        Assinar Mensal
+                    </button>
+                </div>
+
+                <!-- 4. 25GB Mensal -->
+                <div class="snap-center flex-shrink-0 w-72 bg-white border border-gray-200 p-5 rounded-2xl shadow-sm opacity-90">
+                    <h3 class="text-gray-500 text-sm font-medium mb-2">Mensal</h3>
+                    
+                    <div class="flex items-baseline mb-4">
+                        <span class="text-sm text-gray-700 font-bold mr-1">R$</span>
+                        <span class="text-5xl font-black text-gray-800 tracking-tighter">55</span>
+                        <span class="text-sm text-gray-500 font-medium ml-1">/mês</span>
+                    </div>
+
+                    <div class="bg-gray-100 text-gray-600 font-bold px-3 py-1 rounded-lg inline-block text-sm mb-6">
+                        25GB plano por mês
+                    </div>
+                    
+                    <button class="w-full bg-white border-2 border-purple-800 text-purple-800 font-bold py-3 rounded-lg hover:bg-purple-50 transition-colors">
+                        Assinar Mensal
+                    </button>
                 </div>
                 
-                <!-- Item 2 -->
-                <div class="flex items-start bg-white p-4 rounded-xl shadow-sm border border-gray-100">
-                    <div class="flex-shrink-0 w-8 h-8 bg-green-100 rounded-full flex items-center justify-center text-green-600 mr-3 mt-1">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                    </div>
-                    <div>
-                        <h3 class="font-bold text-gray-800">Zero Mensalidade</h3>
-                        <p class="text-xs text-gray-600">Sem conta surpresa. Você paga apenas o que comprar a mais.</p>
-                    </div>
-                </div>
             </div>
+            <p class="text-center text-xs text-gray-600 mt-2 italic">Arraste para o lado para ver mais opções →</p>
         </section>
 
         <!-- Depoimentos -->
         <section class="mb-8">
-            <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
-                <h3 class="text-center font-bold text-gray-800 mb-4">Quem já ativou:</h3>
+            <div class="bg-white/50 backdrop-blur-sm rounded-2xl p-5 border border-white/60">
+                <h3 class="text-center font-bold text-gray-800 mb-4">Quem usou o código:</h3>
                 
+                <!-- Depoimento 1 -->
                 <div class="bg-white p-3 rounded-lg shadow-sm border border-gray-100 mb-3">
                     <div class="flex items-center mb-2">
-                        <div class="w-6 h-6 bg-gray-200 rounded-full mr-2"></div>
-                        <p class="text-xs font-bold text-gray-900">Lucas M.</p>
+                        <div class="w-6 h-6 bg-gray-200 rounded-full mr-2 flex items-center justify-center text-[10px] font-bold text-gray-500">JP</div>
+                        <p class="text-xs font-bold text-gray-900">João Paulo</p>
                         <div class="flex text-yellow-400 text-xs ml-auto">★★★★★</div>
                     </div>
-                    <p class="text-xs text-gray-600 italic">"Eu já ia assinar o Perplexity por 20 dólares, ganhei de graça no Vivo Easy com esse código. Surreal!"</p>
+                    <p class="text-xs text-gray-600 italic">"Assinei o plano anual de 20GB por 30 reais. Preço imbatível e os 10GB de bônus caíram na hora."</p>
                 </div>
 
-                <div class="bg-white p-3 rounded-lg shadow-sm border border-gray-100">
+                <!-- Depoimento 2 -->
+                <div class="bg-white p-3 rounded-lg shadow-sm border border-gray-100 mb-3">
                     <div class="flex items-center mb-2">
-                        <div class="w-6 h-6 bg-gray-200 rounded-full mr-2"></div>
-                        <p class="text-xs font-bold text-gray-900">Carla F.</p>
+                        <div class="w-6 h-6 bg-purple-100 rounded-full mr-2 flex items-center justify-center text-[10px] font-bold text-purple-600">AC</div>
+                        <p class="text-xs font-bold text-gray-900">Ana Clara</p>
                         <div class="flex text-yellow-400 text-xs ml-auto">★★★★★</div>
                     </div>
-                    <p class="text-xs text-gray-600 italic">"10GB + IA de graça? Achei que era mentira mas ativou na hora."</p>
+                    <p class="text-xs text-gray-600 italic">"Achei que era difícil usar o cupom, mas foi só colar na hora do cadastro. Ganhei os 10GB e já tô usando o Perplexity."</p>
+                </div>
+
+                <!-- Depoimento 3 -->
+                <div class="bg-white p-3 rounded-lg shadow-sm border border-gray-100">
+                    <div class="flex items-center mb-2">
+                        <div class="w-6 h-6 bg-blue-100 rounded-full mr-2 flex items-center justify-center text-[10px] font-bold text-blue-600">PH</div>
+                        <p class="text-xs font-bold text-gray-900">Pedro H.</p>
+                        <div class="flex text-yellow-400 text-xs ml-auto">★★★★★</div>
+                    </div>
+                    <p class="text-xs text-gray-600 italic">"Melhor custo benefício. O plano Lite anual vale muito a pena, sai mais barato que pré-pago e ainda ganha bônus."</p>
                 </div>
             </div>
         </section>
 
     </main>
 
-    <!-- Footer SEO -->
-    <footer class="text-center px-4 pb-4 opacity-50">
-        <h2 class="sr-only">Código Vivo Easy 10GB + Perplexity Pro</h2>
-        <p class="text-[10px] text-gray-400">Regras: O bônus de 10GB é imediato. O Perplexity Pro é uma oferta de parceiro Vivo Easy sujeita à elegibilidade no app.</p>
-        <p class="text-[10px] text-gray-400 mt-2">&copy; 2025 Portal de Convites.</p>
+    <!-- Footer -->
+    <footer class="text-center px-4 pb-4 opacity-60">
+        <p class="text-[9px] text-slate-200 leading-tight">
+            Valores conforme imagens oficiais do App Vivo Easy Lite. O bônus de 10GB é garantido ao usar o código de indicação em qualquer assinatura.
+        </p>
+        <p class="text-[9px] text-slate-200 mt-2">&copy; 2025 Convite Easy.</p>
     </footer>
 
-    <!-- Sticky CTA Bar -->
-    <div class="fixed bottom-0 left-0 w-full z-50 p-3 bg-white/95 backdrop-blur-lg border-t border-gray-200 shadow-[0_-4px_20px_rgba(0,0,0,0.1)]">
+    <!-- Sticky CTA -->
+    <div class="fixed bottom-0 left-0 w-full z-50 p-3 bg-white/95 backdrop-blur-xl border-t border-gray-200 shadow-[0_-4px_20px_rgba(0,0,0,0.15)]">
         <div class="max-w-md mx-auto flex flex-col gap-2">
             <div class="flex justify-between items-center px-2">
                 <div class="flex flex-col">
-                    <span class="text-[10px] text-gray-500 uppercase font-bold">Código Ativo:</span>
+                    <span class="text-[10px] text-gray-500 uppercase font-bold tracking-wide">CUPOM ATIVO:</span>
                     <span class="text-sm font-mono font-bold text-purple-700 select-all">40DZ36HK2E</span>
                 </div>
                 <div class="text-right">
                     <span class="text-[10px] text-red-500 font-bold block animate-pulse" id="countdown">Expira em 05:12:30</span>
-                    <span class="text-[9px] bg-cyan-100 text-cyan-800 px-1 rounded border border-cyan-200">+ Perplexity Incluso</span>
                 </div>
             </div>
-            <a href="https://vivo.gateway.zup.me/easy/v3/invitations/40DZ36HK2E?gw-app-key=bba02b207a1301386e15000d3ac06d76&media=&utm_source=convite&utm_medium=footer&utm_campaign=10gb_perplexity" 
-               class="btn-cta block w-full text-white font-bold text-center py-3 rounded-xl shadow-lg">
-                ATIVAR 10GB + PRO AGORA →
+            <a href="https://vivo.gateway.zup.me/easy/v3/invitations/40DZ36HK2E?gw-app-key=bba02b207a1301386e15000d3ac06d76&media=&utm_source=convite&utm_medium=footer&utm_campaign=10gb_lite" 
+               class="btn-main-cta block w-full text-white font-bold text-center py-3.5 rounded-xl shadow-lg text-lg">
+                ATIVAR PLANO LITE →
             </a>
         </div>
     </div>
 
-    <!-- Script Logica -->
     <script>
-        // Countdown Logic (Timer Regressivo Fake 24h)
+        // Timer Reverso
         function updateCountdown() {
             const now = new Date();
             const target = new Date();
             target.setHours(23, 59, 59);
-            
             let diff = target - now;
             if (diff < 0) diff = 0;
-
             const hours = String(Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).padStart(2, '0');
             const minutes = String(Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60))).padStart(2, '0');
             const seconds = String(Math.floor((diff % (1000 * 60)) / 1000)).padStart(2, '0');
-
             document.getElementById("countdown").innerText = `Expira em ${hours}:${minutes}:${seconds}`;
         }
-
         setInterval(updateCountdown, 1000);
         updateCountdown();
 
-        // Copy to clipboard interaction
+        function copyCode() {
+            const code = '40DZ36HK2E';
+            navigator.clipboard.writeText(code).then(() => {
+                alert('Código 40DZ36HK2E copiado!');
+            }).catch(err => console.error(err));
+        }
+
         document.querySelectorAll('.select-all').forEach(el => {
             el.addEventListener('click', function() {
-                const code = '40DZ36HK2E';
-                navigator.clipboard.writeText(code).then(() => {
-                    // Visual feedback effect
-                    const originalBg = this.style.backgroundColor;
-                    this.style.backgroundColor = '#86efac'; // green-300
-                    this.style.borderColor = '#16a34a'; // green-600
-                    setTimeout(() => {
-                        this.style.backgroundColor = originalBg;
-                        this.style.borderColor = '';
-                        alert('Código copiado! Abra o app Vivo Easy para colar.');
-                    }, 200);
-                });
+                copyCode();
+                const originalBg = this.style.backgroundColor;
+                this.style.backgroundColor = '#86efac'; 
+                setTimeout(() => { this.style.backgroundColor = originalBg; }, 300);
             });
         });
     </script>
